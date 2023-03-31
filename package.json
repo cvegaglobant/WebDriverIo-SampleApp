@@ -15,6 +15,7 @@
   },
   "scripts": {
     "wdio": "wdio run ./wdio.conf.js",
-    "spec": "wdio run ./wdio.conf.js --spec ./test/specs/prueba.js"
+    "spec": "wdio run ./wdio.conf.js --spec ./test/specs/prueba.js",
+    "specPage": "wdio run ./wdio.conf.js --spec ./test/specs/pruebaDeLogin.js"
   }
 }
